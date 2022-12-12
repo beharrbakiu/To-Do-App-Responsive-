@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="todo" class="todo">
+        <input id="input" type="text" placeholder="Write a task for today">
+        <button onkeydown="display()" onclick="display()" id="click" type="submit">Add Task</button>
+        <select name="dropdown" id="select">
+            <option id="option" value="All">All</option>
+            <option id="option2" value="Completed">Completed</option>
+            <option id="option3" value="Incomplete">Incomplete</option>
+        </select>
+        <audio id="audio" src="mixkit-click-melodic-tone-1129.wav"></audio>
+        <audio id="audio2" src="mixkit-modern-technology-select-3124.wav"></audio>
+
+        <div id="todoList" class="todoList">
+
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
